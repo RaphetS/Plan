@@ -1,0 +1,32 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/srl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:id="@+id/tv_empty"
+            android:visibility="gone"
+            android:textColor="@android:color/black"
+            android:drawablePadding="20dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:drawableTop="@drawable/ic_dog"
+            android:text="主人，今天还没有计划呢！"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </FrameLayout>
+
+
+
+</android.support.v4.widget.SwipeRefreshLayout>

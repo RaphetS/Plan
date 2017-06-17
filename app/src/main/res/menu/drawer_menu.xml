@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        app:itemIconTint="@android:color/black"
+        android:icon="@drawable/ic_day"
+        android:id="@+id/drawer_day"
+        android:checkable="true"
+        android:title="日计划" />
+    <item
+        app:itemIconTint="@android:color/black"
+        android:icon="@drawable/ic_week"
+        android:id="@+id/drawer_week"
+        android:checkable="true"
+        android:title="周计划" />
+
+    <item
+        app:itemIconTint="@android:color/black"
+        android:icon="@drawable/ic_month"
+        android:id="@+id/drawer_month"
+        android:checkable="true"
+        android:title="月计划" />
+    <item
+        app:itemIconTint="@android:color/black"
+        android:icon="@drawable/ic_year"
+        android:id="@+id/drawer_year"
+        android:checkable="true"
+        android:title="年计划" />
+
+</menu>

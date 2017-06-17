@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_plan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="org.raphets.todo.AddPlanActivity">
+
+    <include layout="@layout/toolbar"/>
+
+
+    <EditText
+        android:id="@+id/et_plan"
+        android:background="@null"
+        android:gravity="start"
+        android:hint="写点计划吧..."
+        android:padding="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+        <View
+            android:layout_weight="1"
+            android:background="#eee"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"/>
+
+
+
+
+</LinearLayout>
